@@ -138,3 +138,5 @@ token.txt
 venv
 .vscode
 t.py
+*.xml
+*.iml

@@ -56,8 +56,9 @@ def send_emails(server: SMTP, template):
         multipart_msg["Subject"] = message.splitlines()[0]
         multipart_msg["From"] = DISPLAY_NAME + f' <{SENDER_EMAIL}>'
         multipart_msg["To"] = receiver
+        multipart_msg.add_header('reply-to', "skyricho@hey.com")  # Todo move to env
 
-        text = message
+        text = message   # .splitlines()[0:]  # Omit first line which is the subject
         html = markdown.markdown(text)
 
         part1 = MIMEText(text, "plain")
@@ -89,7 +90,7 @@ def send_emails(server: SMTP, template):
 
 
 if __name__ == "__main__":
-    host = "smtp.gmail.com"
+    host = "email-smtp.us-east-1.amazonaws.com"
     port = 587  # TLS replaced SSL in 1999
 
     with open('compose.md') as f:
@@ -100,7 +101,7 @@ if __name__ == "__main__":
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login(user=SENDER_EMAIL, password=PASSWORD)
+    server.login(user="AKIAWKAPCMLC7LI37F64", password="BNKr0gSd3UO+ArSyvPXGLxA0Ll1XlDJut8/y2xcNkP/R")  # Todo move to env
 
     send_emails(server, template)
 
