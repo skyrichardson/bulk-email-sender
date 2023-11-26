@@ -58,7 +58,12 @@ def send_emails(server: SMTP, template):
         multipart_msg["To"] = receiver
         multipart_msg.add_header('reply-to', "skyricho@hey.com")  # Todo move to env
 
-        text = message   # .splitlines()[0:]  # Omit first line which is the subject
+        text = message   # .splitlines()[1:]  # Omit first line which is the subject
+        # todo perhaps splitlines()[1:] then rejoin
+        # print(template)
+        # foo = template.splitlines()[2:]
+        # bar = "\n".join(foo)
+        # print(bar)
         html = markdown.markdown(text)
 
         part1 = MIMEText(text, "plain")
