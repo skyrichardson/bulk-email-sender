@@ -12,7 +12,7 @@ Here are some more suggestions:
 
 Your objective for bootcamp should be to have 100% mind clarity for these setups and the ability to trade them profitably.
 
-The next time i contact you will be with resources to ensure you have TC2000 set up correctly.
+The next time I contact you will be be with resources to ensure you have TC2000 set up correctly.
 
 -sky  
 skyricho@hey.com
