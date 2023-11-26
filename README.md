@@ -1,6 +1,19 @@
 # bulk-email-sender
 
 
+## Log
+### 2023-11-26 
+Use compare.py to get recent registrations. Then Send them prior email sequences.
+In this case 7 registrants., Then send all 34 recipients the TC000 email
+
+
+
+
+
+
+
+
+
 Send Templatized Dynamic Emails Automatically 
 
 ## Features 
