@@ -1,7 +1,21 @@
 # bulk-email-sender
 
+## usage
+  ```shell
+  python3 send.py
+  ```
+
+
+## Notes
+- header email in csv file must uppercase i.e EMAIL.
 
 ## Log
+
+### 2023-12-04 
+Use compare.py to get recent 8 registrations. Then Send them prior email sequences.
+Send 8 template 01. Send 8 template 02. Send 42 template 03
+
+
 ### 2023-11-26 
 Use compare.py to get recent registrations. Then Send them prior email sequences.
 In this case 7 registrants., Then send all 34 recipients the TC000 email
