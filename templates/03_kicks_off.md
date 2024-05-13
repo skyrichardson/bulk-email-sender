@@ -9,7 +9,7 @@ Here are a few reminders to help you get the most out of this event:
 - Ensure you have 100% mind clarity for what you are about to learn
 
 Feel free to join the Whatsapp Group chat for this bootcamp
-https://chat.whatsapp.com/FwBfQCwcBLfJ1HykO5rSzw
+{{link}}
 
 Stockbee member BDD has shared an excellent guide that may help you get the most out of this bootcamp.  
 https://stockbee.biz/tweet/621658/
