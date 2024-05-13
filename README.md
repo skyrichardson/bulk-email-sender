@@ -11,6 +11,9 @@
 
 ## Log
 
+### 2023-12-05
+Use compare.py to get recent 8 registrations. Send all 3 templates to amalaarasu@gmail.com
+
 ### 2023-12-04 
 Use compare.py to get recent 8 registrations. Then Send them prior email sequences.
 Send 8 template 01. Send 8 template 02. Send 42 template 03
