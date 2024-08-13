@@ -1,6 +1,6 @@
 import csv
 import os
-from settings import SENDER_EMAIL, PASSWORD, DISPLAY_NAME
+from settings import DISPLAY_NAME, SENDER_EMAIL, REPLY_TO_EMAIL, HOST, USERNAME, PASSWORD
 from smtplib import SMTP
 import markdown
 from email.mime.text import MIMEText
@@ -95,7 +95,7 @@ def send_emails(server: SMTP, template):
 
 
 if __name__ == "__main__":
-    host = "email-smtp.us-east-1.amazonaws.com"
+    host = HOST
     port = 587  # TLS replaced SSL in 1999
 
     with open('compose.md') as f:
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login(user="AKIAWKAPCMLC7LI37F64", password="BNKr0gSd3UO+ArSyvPXGLxA0Ll1XlDJut8/y2xcNkP/R")  # Todo move to env
+    server.login(user=USERNAME, password=PASSWORD)
 
     send_emails(server, template)
 
