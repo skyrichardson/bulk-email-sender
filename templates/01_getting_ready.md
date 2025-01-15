@@ -14,6 +14,9 @@ Here are some more suggestions:
 
 Your objective for bootcamp should be to have 100% mind clarity for these setups and the ability to trade them profitably.
 
+Feel free to join the Whatsapp Group chat for this bootcamp  
+{{link}}
+
 The next time I contact you will be with resources to ensure you have TC2000 set up correctly.
 
 If you have any questions, please free to ask in the Group chat or contact me by email (and not EG).
