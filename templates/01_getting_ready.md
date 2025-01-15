@@ -8,7 +8,7 @@ So how can you speed up your understanding of the setup?
 
 By going through the guide section before arriving at bootcamp, you will be in a much better position to benefit from the bootcamp.
 
-Here are some more suggestions:  
+Here are some more suggestions:
  - Ensure you have scans and charts in place before arriving  
  - Do not plan anything for evening and night as every evening you will have substantial homework to do  
 
